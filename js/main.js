@@ -27,7 +27,7 @@ var sceneA = new Phaser.Class({
         //Utilizar esse caminho e url para teste em web server
         //var folder = "DescontozProjeto";
         //this.load.setBaseURL('http://127.0.0.1');
-        var folder = ".."
+        var folder = "."
 
 
 
