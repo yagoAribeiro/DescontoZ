@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url("../img/back.jpg");
+}
+
+header{
+    width: 100%;
+    display: flex;
+    gap:1vw;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to right, rgb(8, 28, 58),  rgb(42, 59, 117), rgb(8, 28, 58));
+}
+figure{
+    width:100px;
+    height: 100px;
+}
+figure>img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    color: aliceblue;
+    font-size: 32pt;
+    font-weight: 700;
+    font-style: italic;
+}
+p>span{
+    animation: color_change infinite 1s;
+}
+@keyframes color_change{
+    0%{
+        color:aliceblue;
+    }
+    33%{
+        color: #00ffff;
+    }
+    66%{
+        color: rgb(54, 54, 122);
+    }
+    100%{
+        color: aquamarine;
+    }
+}
+#main_frame{
+    margin: auto;
+    margin-top: 4vh;
+}
+#main_frame canvas{
+    border: 3px solid rgb(12, 25, 102);
+    box-shadow: 0 0 50px rgb(32, 173, 255);
+}
